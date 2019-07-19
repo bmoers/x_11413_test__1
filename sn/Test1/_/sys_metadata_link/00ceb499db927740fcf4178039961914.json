@@ -1,0 +1,18 @@
+{
+  "directory": "update",
+  "documentkey": "db39c2301b222000054c91eebc071354",
+  "payload": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<record_update table=\"sys_trigger\">\n    <sys_trigger action=\"INSERT_OR_UPDATE\">\n        <application/>\n        <calendar/>\n        <claimed_by/>\n        <document/>\n        <document_key/>\n        <error_count>0</error_count>\n        <job_context>#Wed Jun 26 05:48:11 PDT 2019\nfcScriptName=in the schedule record\n</job_context>\n        <job_id display_value=\"RunScriptJob\">81c92ce9c0a8016400e5f0d2f784ea78</job_id>\n        <last_error/>\n        <log>false</log>\n        <maintenance>false</maintenance>\n        <max_drift>1970-01-01 00:00:01</max_drift>\n        <name>Clean DB Cache</name>\n        <next_action>2019-06-26 13:48:08</next_action>\n        <parent/>\n        <priority>100</priority>\n        <processing_duration>3</processing_duration>\n        <repeat>1970-01-01 01:00:00</repeat>\n        <rollback_context_id/>\n        <run_count>1901</run_count>\n        <run_dayofmonth/>\n        <run_dayofweek>1</run_dayofweek>\n        <run_month>1</run_month>\n        <run_time>1970-01-01 08:00:00</run_time>\n        <run_weekinmonth>1</run_weekinmonth>\n        <script>var timestamp = GlideCacheManager.getFlushTime();&#13;\nvar now = new GlideDateTime();&#13;\n&#13;\nvar msAgo = now.getNumericValue() - timestamp.getNumericValue();&#13;\n&#13;\nvar cleaner =  new GlideTableCleaner('sys_db_cache', msAgo, 'sys_updated_on');&#13;\ncleaner.setSuppressCompact(true);&#13;\ncleaner.clean();</script>\n        <state>0</state>\n        <sys_created_by>admin</sys_created_by>\n        <sys_created_on>2012-06-08 16:54:20</sys_created_on>\n        <sys_id>db39c2301b222000054c91eebc071354</sys_id>\n        <sys_mod_count>5517</sys_mod_count>\n        <sys_updated_by>system</sys_updated_by>\n        <sys_updated_on>2019-06-26 12:48:11</sys_updated_on>\n        <system_id/>\n        <trigger_class>DEFAULT</trigger_class>\n        <trigger_type>1</trigger_type>\n        <upgrade_safe>false</upgrade_safe>\n    </sys_trigger>\n</record_update>\n",
+  "sys_class_name": "sys_metadata_link",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-06-26 12:55:09",
+  "sys_id": "00ceb499db927740fcf4178039961914",
+  "sys_mod_count": 0,
+  "sys_name": "Clean DB Cache",
+  "sys_package": "a7841478db4db740fcf41780399619f5",
+  "sys_policy": null,
+  "sys_scope": "a7841478db4db740fcf41780399619f5",
+  "sys_update_name": "sys_metadata_link_00ceb499db927740fcf4178039961914",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-06-26 12:55:09",
+  "tablename": "sys_trigger"
+}

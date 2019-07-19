@@ -1,0 +1,18 @@
+{
+  "directory": "update",
+  "documentkey": "f8f8c4d1db127740fcf41780399619fe",
+  "payload": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<record_update table=\"sys_trigger\">\n    <sys_trigger action=\"INSERT_OR_UPDATE\">\n        <application/>\n        <calendar/>\n        <claimed_by/>\n        <document>sys_api_stats_script</document>\n        <document_key>6bf8c8407f102200f936dd620efa9105</document_key>\n        <error_count>0</error_count>\n        <job_context>#Wed Jun 26 02:00:05 PDT 2019\nfcDocumentClass=sys_api_stats_script\nfcDocumentKey=6bf8c8407f102200f936dd620efa9105\n</job_context>\n        <job_id/>\n        <last_error/>\n        <log>false</log>\n        <maintenance>false</maintenance>\n        <max_drift/>\n        <name>API Monthly Requestor Stats</name>\n        <next_action>2019-06-27 09:00:00</next_action>\n        <parent/>\n        <priority>100</priority>\n        <processing_duration>0</processing_duration>\n        <repeat/>\n        <rollback_context_id/>\n        <run_count>0</run_count>\n        <run_dayofmonth>2</run_dayofmonth>\n        <run_dayofweek>1</run_dayofweek>\n        <run_month/>\n        <run_time>1970-01-01 10:00:00</run_time>\n        <run_weekinmonth/>\n        <script/>\n        <state>0</state>\n        <sys_created_by>admin</sys_created_by>\n        <sys_created_on>2019-06-26 09:00:05</sys_created_on>\n        <sys_id>f8f8c4d1db127740fcf41780399619fe</sys_id>\n        <sys_mod_count>0</sys_mod_count>\n        <sys_updated_by>admin</sys_updated_by>\n        <sys_updated_on>2019-06-26 09:00:05</sys_updated_on>\n        <system_id/>\n        <trigger_class>com.snc.automation.ScriptJob</trigger_class>\n        <trigger_type>11</trigger_type>\n        <upgrade_safe>false</upgrade_safe>\n    </sys_trigger>\n</record_update>\n",
+  "sys_class_name": "sys_metadata_link",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-06-26 12:52:50",
+  "sys_id": "4a3e7859db927740fcf41780399619f9",
+  "sys_mod_count": 0,
+  "sys_name": "API Monthly Requestor Stats",
+  "sys_package": "a7841478db4db740fcf41780399619f5",
+  "sys_policy": null,
+  "sys_scope": "a7841478db4db740fcf41780399619f5",
+  "sys_update_name": "sys_metadata_link_4a3e7859db927740fcf41780399619f9",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-06-26 12:52:50",
+  "tablename": "sys_trigger"
+}
