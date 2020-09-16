@@ -1,7 +1,10 @@
 {
   "active": true,
+  "copied_from": null,
   "description": null,
+  "enable_parameterized_testing": false,
   "name": "SampleTest",
+  "parameters": null,
   "remember": null,
   "sys_class_name": "sys_atf_test",
   "sys_created_by": "admin",
