@@ -1,9 +1,13 @@
 {
   "active": true,
+  "copied_from": null,
   "description": "Run Server Side Validation Script",
   "display_name": "Run Server Side Script",
   "inputs": null,
+  "mugshots_cache_json": null,
+  "notes": null,
   "order": 1,
+  "snapshot": null,
   "step_config": "41de4a935332120028bc29cac2dc349a",
   "sys_class_name": "sys_atf_step",
   "sys_created_by": "admin",
