@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-09-17 21:10:02">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-09-18 13:55:12">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
 <application_name>Test1</application_name>
@@ -20,11 +20,11 @@
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>fed187b1db57dc10fcf417803996193e</sys_id>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>b2e72202db1fdc10fcf417803996196f</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
@@ -34,146 +34,24 @@
 <application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
 <category>customer</category>
 <comments/>
-<name>sys_metadata_link_00ceb499db927740fcf4178039961914</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;db39c2301b222000054c91eebc071354&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;record_update table="sys_trigger"&gt;
-    &lt;sys_trigger action="INSERT_OR_UPDATE"&gt;
-        &lt;application/&gt;
-        &lt;calendar/&gt;
-        &lt;claimed_by/&gt;
-        &lt;document/&gt;
-        &lt;document_key/&gt;
-        &lt;error_count&gt;0&lt;/error_count&gt;
-        &lt;job_context&gt;#Wed Jun 26 05:48:11 PDT 2019
-fcScriptName=in the schedule record
-&lt;/job_context&gt;
-        &lt;job_id display_value="RunScriptJob"&gt;81c92ce9c0a8016400e5f0d2f784ea78&lt;/job_id&gt;
-        &lt;last_error/&gt;
-        &lt;log&gt;false&lt;/log&gt;
-        &lt;maintenance&gt;false&lt;/maintenance&gt;
-        &lt;max_drift&gt;1970-01-01 00:00:01&lt;/max_drift&gt;
-        &lt;name&gt;Clean DB Cache&lt;/name&gt;
-        &lt;next_action&gt;2019-06-26 13:48:08&lt;/next_action&gt;
-        &lt;parent/&gt;
-        &lt;priority&gt;100&lt;/priority&gt;
-        &lt;processing_duration&gt;3&lt;/processing_duration&gt;
-        &lt;repeat&gt;1970-01-01 01:00:00&lt;/repeat&gt;
-        &lt;rollback_context_id/&gt;
-        &lt;run_count&gt;1901&lt;/run_count&gt;
-        &lt;run_dayofmonth/&gt;
-        &lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;
-        &lt;run_month&gt;1&lt;/run_month&gt;
-        &lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;
-        &lt;run_weekinmonth&gt;1&lt;/run_weekinmonth&gt;
-        &lt;script&gt;var timestamp = GlideCacheManager.getFlushTime();&amp;#13;
-var now = new GlideDateTime();&amp;#13;
-&amp;#13;
-var msAgo = now.getNumericValue() - timestamp.getNumericValue();&amp;#13;
-&amp;#13;
-var cleaner =  new GlideTableCleaner('sys_db_cache', msAgo, 'sys_updated_on');&amp;#13;
-cleaner.setSuppressCompact(true);&amp;#13;
-cleaner.clean();&lt;/script&gt;
-        &lt;state&gt;0&lt;/state&gt;
-        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
-        &lt;sys_created_on&gt;2012-06-08 16:54:20&lt;/sys_created_on&gt;
-        &lt;sys_id&gt;db39c2301b222000054c91eebc071354&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;5517&lt;/sys_mod_count&gt;
-        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2019-06-26 12:48:11&lt;/sys_updated_on&gt;
-        &lt;system_id/&gt;
-        &lt;trigger_class&gt;DEFAULT&lt;/trigger_class&gt;
-        &lt;trigger_type&gt;1&lt;/trigger_type&gt;
-        &lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;
-    &lt;/sys_trigger&gt;
-&lt;/record_update&gt;
-]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-26 12:55:09&lt;/sys_created_on&gt;&lt;sys_id&gt;00ceb499db927740fcf4178039961914&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Clean DB Cache&lt;/sys_name&gt;&lt;sys_package display_value="Test1" source="x_11413_test__1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Test1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_00ceb499db927740fcf4178039961914&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-26 12:55:09&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_trigger&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
-<payload_hash>-219057783</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>3ed187b1db57dc10fcf417803996193f</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16c09d57f270000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
-<table/>
-<target_name>Clean DB Cache</target_name>
-<type>Metadata Snapshot</type>
-<update_domain>global</update_domain>
-<update_guid>a97d762015f2bb80b7f9f0d986894957</update_guid>
-<update_guid_history>a97d762015f2bb80b7f9f0d986894957:-219057783,0cceb4997392774074ee64eac6f0ca14:-219057783</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
-<category>customer</category>
-<comments/>
 <name>sys_atf_test_dec490f8db4db740fcf4178039961968</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><description/><name>SampleTest</name><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-23 17:16:33</sys_created_on><sys_id>dec490f8db4db740fcf4178039961968</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SampleTest</sys_name><sys_package display_value="Test1" source="x_11413_test__1">a7841478db4db740fcf41780399619f5</sys_package><sys_policy/><sys_scope display_value="Test1">a7841478db4db740fcf41780399619f5</sys_scope><sys_update_name>sys_atf_test_dec490f8db4db740fcf4178039961968</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-23 17:16:33</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=dec490f8db4db740fcf4178039961968"/></record_update>]]></payload>
 <payload_hash>1088442979</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>7ad187b1db57dc10fcf417803996193f</sys_id>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>3ee72202db1fdc10fcf417803996196f</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16c09d57f8f0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
 <table/>
 <target_name>SampleTest</target_name>
 <type>Test</type>
 <update_domain>global</update_domain>
 <update_guid>ed7d76205ff2bb80e28bf5abf17863ff</update_guid>
 <update_guid_history>ed7d76205ff2bb80e28bf5abf17863ff:1088442979,d5d45478b84db7407b2f8ceafdae6d5c:1088442979</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
-<category>customer</category>
-<comments/>
-<name>sys_script_include_4f9410f8db4db740fcf417803996190a</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_test__1.exampleScript&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;exampleScript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
- * Class Description
- * 
- * @class 
- * @author System Administrator [admin]
- * @memberof x_11413_test__1.module:sys_script_include
- */
-var exampleScript = Class.create();
-exampleScript.prototype = /** @lends x_11413_test__1.module:sys_script_include.exampleScript.prototype */ {
-    /**
-     * Description
-     * 
-     * @returns {undefined}
-     */
-    initialize: function() {
-		return true;
-    },
-
-    type: 'exampleScript'
-};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-23 17:15:52&lt;/sys_created_on&gt;&lt;sys_id&gt;4f9410f8db4db740fcf417803996190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;exampleScript&lt;/sys_name&gt;&lt;sys_package display_value="Test1" source="x_11413_test__1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Test1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4f9410f8db4db740fcf417803996190a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-23 18:51:11&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
-<payload_hash>357321336</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>b2d187b1db57dc10fcf4178039961940</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16c09d57f500000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
-<table/>
-<target_name>exampleScript</target_name>
-<type>Script Include</type>
-<update_domain>global</update_domain>
-<update_guid>e17d762052f2bb8030ead372fa7ccb5a</update_guid>
-<update_guid_history>e17d762052f2bb8030ead372fa7ccb5a:357321336,637a6cf8868db740952853dd426d722e:357321336,e4b450f8504db7405a989b06e0216104:-586857903,9fa410b89f4db7403189dc6ad4f81ca3:-164195098</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -269,15 +147,15 @@ exampleScript.prototype = /** @lends x_11413_test__1.module:sys_script_include.e
 //jasmine.getEnv().execute();&#13;
 </value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>1269233744</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>b6d187b1db57dc10fcf417803996193f</sys_id>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>7ae72202db1fdc10fcf417803996196f</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16c09d57f700000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
 <table/>
 <target_name>Run Server Side Script</target_name>
 <type>Test Step</type>
@@ -292,18 +170,63 @@ exampleScript.prototype = /** @lends x_11413_test__1.module:sys_script_include.e
 <application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
 <category>customer</category>
 <comments/>
+<name>sys_script_include_4f9410f8db4db740fcf417803996190a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_test__1.exampleScript&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;exampleScript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_11413_test__1.module:sys_script_include
+ */
+var exampleScript = Class.create();
+exampleScript.prototype = /** @lends x_11413_test__1.module:sys_script_include.exampleScript.prototype */ {
+    /**
+     * Description
+     * 
+     * @returns {undefined}
+     */
+    initialize: function() {
+		return true;
+    },
+
+    type: 'exampleScript'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-23 17:15:52&lt;/sys_created_on&gt;&lt;sys_id&gt;4f9410f8db4db740fcf417803996190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;exampleScript&lt;/sys_name&gt;&lt;sys_package display_value="Test1" source="x_11413_test__1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Test1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4f9410f8db4db740fcf417803996190a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-23 18:51:11&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>357321336</payload_hash>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>8be72602db1fdc10fcf4178039961978</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16c09d57f500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
+<table/>
+<target_name>exampleScript</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>e17d762052f2bb8030ead372fa7ccb5a</update_guid>
+<update_guid_history>e17d762052f2bb8030ead372fa7ccb5a:357321336,637a6cf8868db740952853dd426d722e:357321336,e4b450f8504db7405a989b06e0216104:-586857903,9fa410b89f4db7403189dc6ad4f81ca3:-164195098</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
+<category>customer</category>
+<comments/>
 <name>sys_app_a7841478db4db740fcf41780399619f5</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>Test1</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_11413_test__1</scope><scoped_administration>false</scoped_administration><short_description/><source>x_11413_test__1</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-23 17:15:21</sys_created_on><sys_id>a7841478db4db740fcf41780399619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-23 17:15:21</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
 <payload_hash>-1399813538</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>f2d187b1db57dc10fcf417803996193f</sys_id>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>b6e72202db1fdc10fcf417803996196f</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16c09d57f0f0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
 <table/>
 <target_name>Test1</target_name>
 <type>Custom Application</type>
@@ -366,21 +289,98 @@ fcDocumentKey=6bf8c8407f102200f936dd620efa9105
 &lt;/record_update&gt;
 ]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-26 12:52:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4a3e7859db927740fcf41780399619f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;API Monthly Requestor Stats&lt;/sys_name&gt;&lt;sys_package display_value="Test1" source="x_11413_test__1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Test1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_4a3e7859db927740fcf41780399619f9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-26 12:52:50&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_trigger&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
 <payload_hash>243149532</payload_hash>
-<remote_update_set display_value="Test1 – 1.0.0">fed187b1db57dc10fcf417803996193e</remote_update_set>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-09-17 21:10:01</sys_created_on>
-<sys_id>fed187b1db57dc10fcf417803996193f</sys_id>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>f6e72602db1fdc10fcf4178039961978</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16c09d57f3c0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-09-17 21:10:01</sys_updated_on>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
 <table/>
 <target_name>API Monthly Requestor Stats</target_name>
 <type>Metadata Snapshot</type>
 <update_domain>global</update_domain>
 <update_guid>6d7d76200ef2bb80166b91b2a92ba458</update_guid>
 <update_guid_history>6d7d76200ef2bb80166b91b2a92ba458:243149532,063e78596c927740b569eb5a2534bffa:243149532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Test1">a7841478db4db740fcf41780399619f5</application>
+<category>customer</category>
+<comments/>
+<name>sys_metadata_link_00ceb499db927740fcf4178039961914</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;db39c2301b222000054c91eebc071354&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update table="sys_trigger"&gt;
+    &lt;sys_trigger action="INSERT_OR_UPDATE"&gt;
+        &lt;application/&gt;
+        &lt;calendar/&gt;
+        &lt;claimed_by/&gt;
+        &lt;document/&gt;
+        &lt;document_key/&gt;
+        &lt;error_count&gt;0&lt;/error_count&gt;
+        &lt;job_context&gt;#Wed Jun 26 05:48:11 PDT 2019
+fcScriptName=in the schedule record
+&lt;/job_context&gt;
+        &lt;job_id display_value="RunScriptJob"&gt;81c92ce9c0a8016400e5f0d2f784ea78&lt;/job_id&gt;
+        &lt;last_error/&gt;
+        &lt;log&gt;false&lt;/log&gt;
+        &lt;maintenance&gt;false&lt;/maintenance&gt;
+        &lt;max_drift&gt;1970-01-01 00:00:01&lt;/max_drift&gt;
+        &lt;name&gt;Clean DB Cache&lt;/name&gt;
+        &lt;next_action&gt;2019-06-26 13:48:08&lt;/next_action&gt;
+        &lt;parent/&gt;
+        &lt;priority&gt;100&lt;/priority&gt;
+        &lt;processing_duration&gt;3&lt;/processing_duration&gt;
+        &lt;repeat&gt;1970-01-01 01:00:00&lt;/repeat&gt;
+        &lt;rollback_context_id/&gt;
+        &lt;run_count&gt;1901&lt;/run_count&gt;
+        &lt;run_dayofmonth/&gt;
+        &lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;
+        &lt;run_month&gt;1&lt;/run_month&gt;
+        &lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;
+        &lt;run_weekinmonth&gt;1&lt;/run_weekinmonth&gt;
+        &lt;script&gt;var timestamp = GlideCacheManager.getFlushTime();&amp;#13;
+var now = new GlideDateTime();&amp;#13;
+&amp;#13;
+var msAgo = now.getNumericValue() - timestamp.getNumericValue();&amp;#13;
+&amp;#13;
+var cleaner =  new GlideTableCleaner('sys_db_cache', msAgo, 'sys_updated_on');&amp;#13;
+cleaner.setSuppressCompact(true);&amp;#13;
+cleaner.clean();&lt;/script&gt;
+        &lt;state&gt;0&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2012-06-08 16:54:20&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;db39c2301b222000054c91eebc071354&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5517&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-26 12:48:11&lt;/sys_updated_on&gt;
+        &lt;system_id/&gt;
+        &lt;trigger_class&gt;DEFAULT&lt;/trigger_class&gt;
+        &lt;trigger_type&gt;1&lt;/trigger_type&gt;
+        &lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;
+    &lt;/sys_trigger&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-26 12:55:09&lt;/sys_created_on&gt;&lt;sys_id&gt;00ceb499db927740fcf4178039961914&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Clean DB Cache&lt;/sys_name&gt;&lt;sys_package display_value="Test1" source="x_11413_test__1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Test1"&gt;a7841478db4db740fcf41780399619f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_00ceb499db927740fcf4178039961914&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-26 12:55:09&lt;/sys_updated_on&gt;&lt;tablename&gt;sys_trigger&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-219057783</payload_hash>
+<remote_update_set display_value="Test1 – 1.0.0">b2e72202db1fdc10fcf417803996196f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-09-18 13:55:11</sys_created_on>
+<sys_id>fee72202db1fdc10fcf417803996196f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16c09d57f270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-09-18 13:55:11</sys_updated_on>
+<table/>
+<target_name>Clean DB Cache</target_name>
+<type>Metadata Snapshot</type>
+<update_domain>global</update_domain>
+<update_guid>a97d762015f2bb80b7f9f0d986894957</update_guid>
+<update_guid_history>a97d762015f2bb80b7f9f0d986894957:-219057783,0cceb4997392774074ee64eac6f0ca14:-219057783</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
